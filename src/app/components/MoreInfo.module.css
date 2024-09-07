@@ -1,0 +1,277 @@
+.moreInfoRow {
+  top: 25px;
+  left: 1vw;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.moreInfoColumn {
+  flex: 1;
+  height: 90%;
+  display: flex;
+
+
+}
+
+.moreInfoColumnOne{
+  justify-content: start;
+  align-items: start;
+  
+}
+
+.moreInfoColumnTwo{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.MoreInfoText {
+  font-weight: 500;
+  font-size: .85vw;
+  letter-spacing: .3vw;
+  margin-bottom: 4vh;
+  color: gray;
+}
+
+.arrowIcon {
+  cursor: pointer;
+}
+
+.more-info-table-container {
+  margin-top: 20px; 
+  font-size: 1.8vh;
+  letter-spacing: .2vw;
+}
+
+.moreInfoTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.emptyCell {
+  border: none;
+  padding: 2px;
+}
+
+.labelCell {
+  border: none;
+  padding: 2px;
+  padding-left: 25px;
+  padding-right: 6px;
+  padding-top: 10px;
+  text-align: left;
+  color: gray;
+  min-width: 2vw;
+}
+
+.dataCell {
+  border: none;
+  padding: 2px;
+  padding-left: 55px;
+  padding-top: 10px;
+}
+
+.emptyLabelCell, .emptyDataCell {
+  border: none;
+  padding: 1.6vh;
+  padding-left: 3px;
+}
+
+.iconCell {
+  border: none;
+  padding: .3vh;
+  padding-top: 2vh;
+}
+
+.more-info-flag{
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.speedSubColumnSvg{
+  padding: 1vw;
+}
+
+.speedSubColumnText{
+  letter-spacing: .2vw;
+  font-size: 3vh;
+}
+
+.speedMoreInfoText{
+  font-size: 1.9vh;
+  letter-spacing: .15vw;
+  font-weight: 500;
+}
+
+.speedSubRow{
+  font-size: 10vw;
+  line-height: 11vw;
+  opacity: 1;
+}
+
+.speed-screen-flag-a{
+  display: flex;
+  margin-top: -12px;
+  width: 40px;
+  height: 40px;
+}
+
+.speed-screen-flag{
+  position: relative;
+  display: inline-block;
+  align-items: center;
+  justify-self: center;
+  line-height: 1em;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  border-radius: 20%;
+ }
+
+
+/* Mobile styles */
+@media only screen and (max-width: 1000px) {
+  .moreInfoRow{
+    width: 100%;
+    /* top: 5px; */
+    flex-direction: column-reverse;
+    min-height: 75vh;
+
+  }
+
+  .speedMainContainer{
+    align-items: center;
+    padding-top: 0px;
+  }
+
+  .speedMainContainerOne{
+
+    padding-bottom: 40px;
+  }
+
+  .speedMoreInfoTitle{
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+  }
+
+  
+  .moreInfoColumn{
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .speed-screen-flag {
+
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .moreInfoColumnTwo{
+    flex: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 0px ;
+    margin-top: 20px;
+  }
+
+  .moreInfoColumnOne{
+    flex: 2;
+    margin-top: 50px;
+    padding-left: 10px;
+  }
+
+  .arrowIcon{
+    position: fixed; 
+    z-index: 1000; 
+    top: 10px; 
+    left: 10px; 
+    width: 30px;
+    height: 30px;
+  }
+
+  .MoreInfoText{
+    display: none;
+  }
+
+
+  .speedMainRow{
+    flex-direction: column;
+  }
+
+  .speedSubColumn{
+    flex-direction: row-reverse;
+  }
+
+  .speedSubRow{
+    font-size: 100px;
+    line-height: 100px;
+  }
+
+  .more-info-table-container{
+    width: 100%;
+    height: auto;
+    font-size: 11px;
+    align-self: flex-starts;
+  }
+
+  .speedSubColumnSvg{
+    width: 30px;
+    height: 30px;
+
+  }
+
+  .speedSubColumnText{
+    margin-top: 10px;
+    font-size: 25px;
+  }
+
+  .speedMoreInfoText{
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: -50px;
+  }
+
+  .svgIcon{
+    width: 25px;
+    height: 25px;
+  }
+
+  .labelCell {
+    border: none;
+    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    text-align: left;
+    color: gray;
+    min-width: 30px;
+    letter-spacing: 2px;
+  }
+  
+  .dataCell {
+    border: none;
+    padding: 2px;
+    padding-left: 30px;
+    padding-top: 5px;
+    letter-spacing: 2px;
+  }
+  
+  .emptyLabelCell, .emptyDataCell {
+    border: none;
+    padding: 9px;
+    padding-left: 3px;
+  }
+  
+  .iconCell {
+    border: none;
+    padding: 5px;
+    padding-top: 5px;
+  }
+}

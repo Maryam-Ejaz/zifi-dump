@@ -1,0 +1,41 @@
+{
+  "name": "zifi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mui/material": "^6.0.2",
+    "@uidotdev/usehooks": "^2.4.1",
+    "address": "^2.0.3",
+    "binternalip": "^1.0.4",
+    "convert-units": "^2.3.4",
+    "fast-api-speedtest": "^0.0.6",
+    "flag-icons": "^7.2.3",
+    "getmac": "^6.6.0",
+    "getmac-offline": "^1.0.1",
+    "internal-ip": "^8.0.0",
+    "macaddress": "^0.5.3",
+    "macaddress-local-machine": "^1.0.7",
+    "my-local-ip-is": "^1.0.7",
+    "next": "14.2.7",
+    "react": "^18",
+    "react-dom": "^18",
+    "universal-speedtest": "^2.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.5",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.7",
+    "node-polyfill-webpack-plugin": "^4.0.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
